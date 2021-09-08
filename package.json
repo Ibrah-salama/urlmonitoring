@@ -1,0 +1,43 @@
+{
+  "name": "urlmonitoring",
+  "version": "1.0.0",
+  "description": "build an uptime monitoring RESTful API server which allows authorized users to enter URLs they want monitored, and get detailed uptime reports about their availability, average response time, and total uptime/downtime.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibrah-salama/urlmonitoring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ibrah-salama/urlmonitoring/issues"
+  },
+  "homepage": "https://github.com/Ibrah-salama/urlmonitoring#readme",
+  "devDependencies": {
+    "expresse": "^1.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.3",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^5.3.0",
+    "helmet": "^4.6.0",
+    "is-up": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.3",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.0.0",
+    "nodemailer": "^6.6.3",
+    "request": "^2.88.2",
+    "simple-puppeteer-uptime-checker": "^1.0.3",
+    "validator": "^13.6.0",
+    "xss-clean": "^0.1.1"
+  }
+}
