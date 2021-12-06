@@ -1,7 +1,7 @@
 
 # URL Monitoring
 
-A backend application for e-commerce services 
+Monitor users servers statuses 
 
 ## Installing / Getting started
 
