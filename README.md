@@ -1,5 +1,5 @@
 
-# E-Shop
+# URL Monitoring
 
 A backend application for e-commerce services 
 
@@ -27,25 +27,18 @@ NodeJs, Express and MongoDB
 * morgan
 * multer
 * validator
-* stripe
+* discord webhook
 
 ### Deploying / Publishing
 Heroku:
 
 Test API : [API](https://e-backen.herokuapp.com/api/v1/) 
 
-ex: 
-* products
-* categories
-
-view: 
-Test view: [Natours](https://sleepy-depths-27368.herokuapp.com/)
-
 ## Api Reference
 
-You can test API via postman using this documentation attached here -> [Postman documentation](https://documenter.getpostman.com/view/14845189/UVJhDah6)
+You can test API via postman using this documentation attached here -> [Postman documentation](https://documenter.getpostman.com/view/14845189/U16ht76X)
 
-![](./public/img/Postman.png)
+![alt text](./public/doc.PNG)
 
 
 ## Database
